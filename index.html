@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta charset="UTF-8">
+<link href="./css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="./css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<script src="./js/jquery1.12.1.js"></script>
+<script src="./js/index.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--webfont-->
+
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+		});
+	});
+</script>
+</head>
+<body>
+ <!-- header-section-starts -->
+    <div class="header">
+		<div class="header-banner">
+			<div class="container">
+				<div class="top-menu">
+				    <span class="menu"> </span>
+					    <ul>
+							<li><a href="#ABOUT" class="scroll">自我介绍</a></li>
+							<li><a href="#WORK" class="scroll">我的作品</a></li>
+							<li><a href="#BLOG" class="scroll">UI 设计</a></li>
+							<li><a href="#CONTACT" class="scroll">联系方式</a></li>
+							<div class="clearfix"></div>
+						</ul>
+				    </div>
+		 <!--script-nav-->
+ <script>
+ $("span.menu").click(function(){
+ $(".top-menu ul").slideToggle("slow" , function(){
+ });
+});
+ </script>
+
+ 				<div class="header-banner-info text-center">
+					<a href="#"><img src="./images/logo.png" alt="" /></a>
+					<h3>欢迎来到我的主页</h3>
+					<h1><span>Archiesq</span> </h1>
+					<p>I'm a front-end developer from ShanXi. </p>
+					<span class="line"></span>					 
+					<ul class="social-icons">
+						<li><a href="#"><i class="twitter"></i></a></li>
+						<li><a href="#"><i class="dribble"></i></a></li>
+						<li><a href="#"><i class="behance"></i></a></li>
+					</ul>
+					<label></label>
+					<ul class="details">
+						<li>年龄:<a href="#">24</a></li>
+						<li>职业:<a href="#">前端工程师</a></li>
+						<li>工作地点:<a href="#">太原</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- header-section-ends -->
+    <!-- content-section-starts -->
+    <div class="content-section">
+	    <!-- about-section-starts -->
+		<div class="about-section" id="ABOUT">
+			<div class="container">
+				<div class="about-section-head text-center">
+					<img src="./images/head.png" alt="" />
+					<h3>ABOUT</h3>
+					<label></label>
+					<p>Do you want to know me?</p>
+				</div>
+				<div class="about-section-grids">
+					<div class="col-md-4 about-section-grid-1">
+						<h4>Who am I?</h4>
+						<p>Hello, my name is Shi Qiang, English named archiesq, located in the town of Dingxiang, Shanxi Province, North central.</p>
+						<p>Simple environment to teach me to work hard to have the harvest, the harder the more fortunate, the only way to go farther.</p>
+						<p>The Dingxiang located in Xinding basin, fertile land, mild climate, has a long history and is the Longshan culture of the west society, Yokoyama, White Village New Stone Age sites, the West County, south of the ruins, the Western Han Song ruins of the ancient city.</p>
+						<ul class="social-icons">
+						    <li><a href="#"><i class="twitter"></i></a></li>
+						    <li><a href="#"><i class="dribble"></i></a></li>
+						    <li><a href="#"><i class="behance"></i></a></li>
+					    </ul>
+					</div>
+					<div class="col-md-4 about-section-grid-2 text-center">
+						<img src="./images/man.jpg" class="img-responsive" alt="" /> 
+					</div>
+					<div class="col-md-4 about-section-grid-3">
+						<h4>我的技能</h4>
+						<p>编程技能</p>
+						<div class="progress-grid">
+				  	       <div class="meter red">
+							   <span style="width:100%;">
+							  	<div class="progress_desc">HTML / HTML5</div>
+								<div class="percent">100%</div> 
+						        <div class="clearfix"> </div>
+						       </span>
+							</div>
+							<div class="meter animate">
+							   <span style="width:85%;"><div class="progress_desc">CSS / CSS3</div>
+								<div class="percent">85%</div> 
+						        <div class="clearfix"> </div>
+							   </span>
+							</div>
+							<div class="meter">
+								<span style="width:75%;"><div class="progress_desc">JavaScript / jquery</div>
+								 <div class="percent">75%</div> 
+								 <div class="clearfix"> </div>
+							    </span>
+							</div>
+						</div>
+						<p>设计技能</p>
+						<div class="progress-grid">
+						<div class="meter red">
+							   <span style="width:75%;">
+							  	<div class="progress_desc">Adobe Photoshop</div>
+								<div class="percent">80%</div> 
+						        <div class="clearfix"> </div>
+						       </span>
+							</div>
+							<div class="meter animate">
+							   <span style="width:65%;"><div class="progress_desc">adobe illustrator</div>
+								<div class="percent">75%</div> 
+						        <div class="clearfix"> </div>
+							   </span>
+							</div>
+							<div class="meter">
+								<span style="width:55%;"><div class="progress_desc">Adobe InDesign</div>
+								 <div class="percent">55%</div> 
+								 <div class="clearfix"> </div>
+							    </span>
+							</div>
+				  	       
+						</div>
+					  </div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+		<!-- about-section-ends -->
+		<!-- portfolio-section-starts -->
+		<div class="portfolio-section" id="WORK">
+			<div class="portfolio-section-top-row">
+				<div class="container">
+					<div class="portfolio-section-head text-center">
+						<h3>PORTFOLIO</h3>
+						<label></label>
+						<p>Do you want to know me?</p>
+					</div>
+					<div class="col-md-3 portfolio-section-top-row-left-grid">
+						<div class="project-name">
+							<span>project-name</span>
+							<h3>Three Popular</h3>
+						</div>
+						<div class="project-description">
+							 <span>project description</span>
+							 <ul>
+								<li><a href="#">News App</a></li>
+								<li><a href="#">Fullpage</a></li>
+								<li><a href="#">Web Music</a></li>
+							 </ul>
+							 <p></p>
+						</div>
+						<div class="address">
+							<span>project web site or address</span>
+							<a href="https://github.com/Archiesq">https://github.com/Archiesq</a>
+						</div>
+						<div class="tags">
+							<span>tags</span>
+							<p>news app,fullpage,web music</p>
+						</div>
+					</div>
+					<div class="col-md-8 portfolio-section-top-row-right-grid">
+						<div class="wmuSlider example1 section" id="section-1">
+							
+						   <article style="position: absolute; width: 100%; opacity:0;"> 
+								<img src="./images/img1.jpg" class="img-responsive" alt="">
+							</article>
+							<article style="position: absolute; width: 100%; opacity:0;"> 
+								<img src="./images/img2.jpg" class="img-responsive" alt="">
+							</article>
+							<article style="position: absolute; width: 100%; opacity: 0;"> 
+								<img src="./images/img3.jpg" class="img-responsive" alt="">
+							</article>
+							<div class="wmuSliderPrev"></div>
+							<div class="wmuSliderNext"></div>
+					  	</div>
+					</div>
+			    <div class="clearfix"></div>
+			</div>
+			</div>
+			<div class="portfolio-section-bottom-row" id="portfolio">
+			<div class="container">
+		<ul id="filters" class="clearfix">
+			<li><span class="filter active" data-filter="web responsive icon Software games">All</span></li>
+			<li><span class="filter" data-filter="web">Web Design</span></li>
+			<li><span class="filter" data-filter="responsive">responsive</span></li>
+			<li><span class="filter" data-filter="Software">Software</span></li>
+			<li><span class="filter" data-filter="games">Games</span></li>
+		</ul>
+		<div id="portfoliolist">
+			<div class="portfolio web mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="web" style="display: inline-block; opacity: 1;">
+			<div class="portfolio-wrapper">		
+				<a href="#small-dialog" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+					<img src="./images/pic-1.jpg" class="img-responsive" alt="" />
+					<div class="b-wrapper">
+						<h2 class="b-animate b-from-left    b-delay03 ">小米官网首页
+							<img src="./images/icon-eye.png" alt=""/>
+						</h2>
+					</div>
+				</a>
+		    </div>
+			</div>				
+			<div class="portfolio web mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="web" style="display: inline-block; opacity: 1;">
+				<div class="portfolio-wrapper">		
+					<a href="#small-dialog1" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+				     <img src="./images/pic-2.jpg" class="img-responsive" alt="" /><div class="b-wrapper"><h2 class="b-animate b-from-left b-delay03 ">天猫官网首页<img src="./images/icon-eye.png" alt=""/></h2>
+				  	</div></a>
+                </div>
+			</div>		
+			<div class="portfolio web mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="web" style="display: inline-block; opacity: 1;">
+				<div class="portfolio-wrapper">		
+					<a href="#small-dialog2" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+				     <img src="./images/pic-3.jpg" class="img-responsive" alt="" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">iCloud消息提醒<img src="./images/icon-eye.png" alt=""/></h2>
+				  	</div></a>
+                </div>
+			</div>				
+			<div class="portfolio responsive mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="responsive" style="display: inline-block; opacity: 1;">
+				<div class="portfolio-wrapper">		
+					<a href="#small-dialog3" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+				     <img src="./images/pic-4.jpg" class="img-responsive" alt="" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">apple官网首页<img src="./images/icon-eye.png" alt=""/></h2>
+				  	</div></a>
+                </div>
+			</div>
+			<div class="portfolio responsive mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="responsive" style="display: inline-block; opacity: 1;">
+				<div class="portfolio-wrapper">		
+					<a href="#small-dialog4" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+				     <img src="./images/pic-5.jpg" class="img-responsive" alt="" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">bootstrap<img src="./images/icon-eye.png" alt=""/></h2>
+				  	</div></a>
+                </div>
+			</div>
+			<div class="portfolio games mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="games" style="display: inline-block; opacity: 1;">
+				<div class="portfolio-wrapper">		
+					<a href="#small-dialog5" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+				     <img src="./images/pic-6.jpg" class="img-responsive" alt="" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">扫雷游戏<img src="./images/icon-eye.png" alt=""/></h2>
+				  	</div></a>
+                </div>
+			</div>			
+			<div class="portfolio games mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="games" style="display: inline-block; opacity: 1;">
+				<div class="portfolio-wrapper">		
+					<a href="#small-dialog6" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+				     <img src="./images/pic-7.png" class="img-responsive" alt="" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">五子棋<img src="./images/icon-eye.png" alt=""/></h2>
+				  	</div></a>
+                </div>
+			</div>	
+			<div class="portfolio Software mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="Software" style="display: inline-block; opacity: 1;">
+				<div class="portfolio-wrapper">		
+					<a href="#small-dialog7" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+				     <img src="./images/pic-8.jpg" class="img-responsive" alt="" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">一号店官网首页<img src="./images/icon-eye.png" alt=""/></h2>
+				  	</div></a>
+                </div>
+			</div>	
+
+<div class="clearfix"></div>					
+				</div>
+	<div class="clearfix"></div>	  
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+		  <!-- Script for gallery Here -->
+
+		</div>
+	  </div>
+	</div>
+	<!-- portfolio-section-ends -->
+	<!-- blog-section-starts -->
+	<div class="blog-section" id="BLOG">
+		<div class="container">
+			<div class="blog-section-head text-center">
+				<h3>UI Design</h3>
+				<label></label>
+				<p>PS AI ANG OTHER</p>
+			</div>
+			
+				<div class="span_4_row">
+						<div class="col-md-3 col">
+							<img src="./images/r1.jpg" class="img-responsive" alt="" />
+							<div class="image-text">
+								<h5>PS 拟物图标</h5>
+							</div>
+						</div>
+						<div class="col-md-3 col">
+						<img src="./images/r2.jpg" class="img-responsive" alt="" />
+							<div class="image-text">
+								<h5>AI 图标</h5>
+							</div>
+						</div>
+						<div class="col-md-3 col">
+						<img src="./images/r3.jpg" class="img-responsive" alt="" />
+							<div class="image-text">
+								<h5>购物网站排版</h5>
+							</div>
+						</div>
+						<div class="col-md-3 col">
+						<img src="./images/r4.jpg" class="img-responsive" alt="" />
+							<div class="image-text">
+								<h5>旅游网站排版</h5>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+		</div>
+	</div>
+	<!-- blog-section-ends -->
+	<div class="twitter-section">
+	    <div class="course_demo">
+		       <div class="contact-section text-center" id="CONTACT">
+		<div class="container">
+			<div class="contact-section-head">
+				<h3>contact</h3>
+				<label></label>
+				<p>Recent email writings</p>
+			</div>
+			<div class="contact-info">
+				<ul>
+					<li><i class="message"></i></li>
+					<li><a href="#">18335831568@163.com</a></li>
+					<li><i class="phone"></i></li>
+					<li><a href="">18335831568</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>   
+	  	</div>
+	</div>
+
+
+	<!-- 	<script type="text/javascript" src="./js/jquery.flexisel.js"></script>	 -->
+
+
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>
